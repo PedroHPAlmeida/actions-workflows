@@ -10,12 +10,12 @@ on: [push]
 
 jobs:
   lint:
-    uses: PedroHPAlmeida/actions-workflows-python/.github/workflows/flake8.yaml@1.2
+    uses: gh-actions-workflows/python-workflows/.github/workflows/flake8.yaml@1.2
     with:
       python-version: '3.10' 
 ```
 
-Para mais detalhes sobre o funcionamento consulte o arquivo: [flake8.yaml](https://github.com/PedroHPAlmeida/actions-workflows-python/blob/master/.github/workflows/flake8.yaml).
+Para mais detalhes sobre o funcionamento consulte o arquivo: [flake8.yaml](https://github.com/gh-actions-workflows/python-workflows/blob/master/.github/workflows/flake8.yaml).
 
 ## Testes - Pytest
 
@@ -25,9 +25,9 @@ on: [push]
 
 jobs:
   test:
-    uses: PedroHPAlmeida/actions-workflows-python/.github/workflows/pytest.yaml@1.2
+    uses: gh-actions-workflows/python-workflows/.github/workflows/pytest.yaml@1.2
     with:
       python-version: '3.10' 
 ```
 
-Para mais detalhes sobre o funcionamento consulte o arquivo: [pytest.yaml](https://github.com/PedroHPAlmeida/actions-workflows-python/blob/master/.github/workflows/pytest.yaml).
+Para mais detalhes sobre o funcionamento consulte o arquivo: [pytest.yaml](https://github.com/gh-actions-workflows/python-workflows/blob/master/.github/workflows/pytest.yaml).
