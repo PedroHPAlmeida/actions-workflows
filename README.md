@@ -1,6 +1,6 @@
 # Python Workflows
 
-Workflows para o seu código Python.
+Workflows for your Python code.
 
 ## Lint - Flake8
 
@@ -15,9 +15,9 @@ jobs:
       python-version: '3.10' 
 ```
 
-Para mais detalhes sobre o funcionamento consulte o arquivo: [flake8.yaml](https://github.com/gh-actions-workflows/python-workflows/blob/master/.github/workflows/flake8.yaml).
+For more details on how it works, see the file: [flake8.yaml](https://github.com/gh-actions-workflows/python-workflows/blob/master/.github/workflows/flake8.yaml).
 
-## Testes - Pytest
+## Tests - Pytest
 
 ```yaml
 name: Python Workflow
@@ -30,4 +30,4 @@ jobs:
       python-version: '3.10' 
 ```
 
-Para mais detalhes sobre o funcionamento consulte o arquivo: [pytest.yaml](https://github.com/gh-actions-workflows/python-workflows/blob/master/.github/workflows/pytest.yaml).
+For more details on how it works, see the file: [pytest.yaml](https://github.com/gh-actions-workflows/python-workflows/blob/master/.github/workflows/pytest.yaml).
